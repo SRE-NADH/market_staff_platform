@@ -1,0 +1,30 @@
+.success{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+.success>img{
+    margin-bottom: 20px;
+}
+.success p{
+    margin-top: 20px;
+    width: 400px;
+    text-align: center;
+    color: #727272;
+    font-weight: 500;
+}
+.redirect{
+    position: absolute;
+    top:85vh ;
+}
+.redirect span{
+    color: black ;
+}
+
+@media screen and (max-width:410px){
+    .success p{
+        width: 350px; 
+    }
+}

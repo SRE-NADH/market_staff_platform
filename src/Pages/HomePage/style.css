@@ -1,0 +1,150 @@
+.ten-days{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--white);
+    /* background-color: aquamarine; */
+    width: 245px;
+    height: 88px;
+    border-radius: 111.54px;
+    box-shadow: 0 15.21px 35.49px 0 rgba(0, 0, 0, 0.09);
+    position: absolute;
+    bottom: 50px;
+    left: -50px;
+}
+/* .ten-days-para p{
+
+} */
+.ten-days>.icon{
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    background-color:#DDEFE0;
+    margin-right: 10px;
+}
+.success-stories{
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 150px;
+}
+.success-stories>p{
+    text-align: center;
+    font-size: 56px;
+    width: 600px;
+}
+.success-stories-folows{
+    margin-top: 30px;
+    display: flex;
+}
+
+.image-container{
+    position: relative;
+    /* width: 500px; */
+    margin-left: 150px;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+}
+.image-1{
+    margin: 20px;
+    border-radius: 50px;
+    width: 400px;
+    
+}
+.image-2{
+ position: absolute;
+ left: -140px;
+ top: 50px;
+ width: 300px;
+}
+.image-3{
+    position:absolute;
+    right: -80px;
+    bottom: -90px;
+    width: 300px;
+}
+
+.light-color{
+    color:#828282 ;
+}
+.para{
+    margin-top: 100px;
+    display: flex;
+    margin-left: 100px;
+    flex-direction: column;
+}
+.para>p{
+    font-size: 40px;
+}
+.dot-carousel-container{
+    margin-top: 30px;
+}
+.para>button{
+    border: none;
+    width: 150px;
+    height: 60px;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 90px;
+    cursor: pointer;
+}
+
+
+@media screen and (max-width:936px) {
+    .para>p{
+        font-size: 30px;
+    }   
+}
+
+@media screen and (max-width:890px) {
+    .success-stories-folows{
+        flex-direction: column;
+        text-align: center;
+    }
+    .image-container{
+        position: static;
+        margin-left: 0px;
+       
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .image-1 {
+        position: static;
+      }
+      .image-2 {
+        position: static;
+      }
+      
+      .image-3 {
+        position: static;
+      }
+    .ten-days{
+        position: static;
+    }
+    .para{
+        margin-left: 0;
+        align-items: center;
+         margin-inline: 30px;
+    }
+}
+
+@media screen and (max-width:620px) {
+    .success-stories>p{
+        margin-top: 20px;
+        font-size: 40px;
+        width: 100%;
+    }
+    .image-1{
+        width: 300px;
+    }
+}
+
+
