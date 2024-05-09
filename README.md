@@ -19,7 +19,8 @@ Before running this project, ensure that you have Node.js and npm (or yarn) inst
 To get started with the Simple Market Platform, follow these steps:
 1. **Clone the Repository**: Clone this repository to your local machine using the following command:
    ```bash
-   git clone https://github.com/your-username/simple-market-platform.git
+      cd  market_staff_platform
+   git clone https://github.com/SRE-NADH/market_staff_platform.git
 2. Navigate to the Project Directory:  
     ```bash
       cd  market_staff_platform
