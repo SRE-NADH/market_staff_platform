@@ -29,6 +29,9 @@ const RegistrationForm = ({setSuccess}) => {
     }
 
     function handleSubmit(){
+        if(disable){
+            return;
+        }
        if(validateEmail(email)){
          setSuccess(true);
          setEmailError(false);
