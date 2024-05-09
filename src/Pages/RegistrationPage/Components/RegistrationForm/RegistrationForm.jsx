@@ -43,9 +43,9 @@ const RegistrationForm = ({setSuccess}) => {
      <img src={registrationForm} alt="registration form" />
      <h1>Start Your Success Journey here!</h1>
       <form>
-        <input onChange={(e)=>setName(e.target.value)} className={disable?'disable':''} type='text'/>
+        <input onChange={(e)=>setName(e.target.value)} className={disable?'disable':''} type='text' placeholder='Name'/>
         <div className='email-input'>
-            <input onChange={(e)=>setEmail(e.target.value)} className={disable?'disable':''} type='text'/>
+            <input onChange={(e)=>setEmail(e.target.value)} className={disable?'disable':''} type='text' placeholder='Email'/>
             <div style={{visibility:emailError?'visible':'hidden'}}><img src={error} alt="error" /> <p>Enter a valid email address</p></div>
             </div>
         <div onClick={handleSubmit} className={disable?'disable-button':'black-hover'}>Submit</div>
@@ -54,4 +54,4 @@ const RegistrationForm = ({setSuccess}) => {
   )
 }
 
-export default RegistrationForm
+export default RegistrationForm;
